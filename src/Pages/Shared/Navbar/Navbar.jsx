@@ -37,7 +37,7 @@ const Navbar = () => {
                     </div>
                     <Link to="/" className='hidden lg:flex'>
                         <button className="text-xl inline-flex items-end gap-1">
-                            <img src={logo} alt="" className='w-8 h-12' />
+                            <img src={logo} alt="Logo" className='w-8 h-12' />
                             <span className='text-2xl text-gradient font-extrabold'>
                                 aiful Islam
                             </span>
