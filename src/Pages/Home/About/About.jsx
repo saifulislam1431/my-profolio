@@ -6,7 +6,6 @@ import Skills from './Skills';
 const About = () => {
     return (
         <section className='my-16'>
-            <div>
                 <div>
 
                     <div className='text-center'>
@@ -39,7 +38,6 @@ const About = () => {
                         <Skills />
                     </div>
                 </div>
-            </div>
         </section>
     );
 };
