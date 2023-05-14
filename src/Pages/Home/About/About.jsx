@@ -1,6 +1,7 @@
 import React from 'react';
 import heroImg from "../../../assets/logo/myPhoto2.jpg"
 import Specializations from './specializations';
+import Skills from './Skills';
 
 const About = () => {
     return (
@@ -33,6 +34,9 @@ const About = () => {
 
                     <div className='my-10'>
                         <Specializations />
+                    </div>
+                    <div className='my-5'>
+                        <Skills />
                     </div>
                 </div>
             </div>
