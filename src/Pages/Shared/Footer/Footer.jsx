@@ -28,7 +28,7 @@ const Footer = () => {
                    <Link to="https://www.facebook.com/sakib.vai143"><img src={icon1} alt="Facebook" className='w-8'/></Link>
                    <Link to="https://github.com/saifulislam1431"><img src={icon2} alt="Github" className='w-8'/></Link>
                    <Link to="https://www.linkedin.com/in/md-saiful-islam-2239a4265/"><img src={icon3} alt="Linkedin" className='w-8'/></Link>
-                   <Link to=""><img src={icon4} alt="Twitter" className='w-8'/></Link>
+                   <Link to="https://twitter.com/SaifulI31277322"><img src={icon4} alt="Twitter" className='w-8'/></Link>
                 </div>
         </footer>
     );
