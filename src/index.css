@@ -7,3 +7,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-gradient{
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary
+}
+
+.active{
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-semibold
+}
+
+.default{
+  @apply text-neutral font-medium bg-transparent
+}
+
+.myBtn{
+  @apply  bg-gradient-to-r from-primary to-secondary text-white px-4 py-2 rounded-lg
+  hover:from-[#7d80c7] hover:to-[#B6B0F2]
+}
+

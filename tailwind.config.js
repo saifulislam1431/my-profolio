@@ -4,14 +4,15 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  
   daisyui: {
     themes: [
       {
         mytheme: {
         
-"primary": "#7d80c7",
+"primary": "#7377DF",
         
-"secondary": "#b6b0f2",
+"secondary": "#B5AFEE",
         
 "accent": "#ccd9ff",
         
