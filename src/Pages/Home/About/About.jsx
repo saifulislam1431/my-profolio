@@ -2,6 +2,7 @@ import React from 'react';
 import heroImg from "../../../assets/logo/myPhoto2.jpg"
 import Specializations from './specializations';
 import Skills from './Skills';
+import CodeManage from './CodeManage';
 
 const About = () => {
     return (
@@ -36,6 +37,9 @@ const About = () => {
                     </div>
                     <div className='my-5'>
                         <Skills />
+                    </div>
+                    <div className='my-5'>
+                        <CodeManage />
                     </div>
                 </div>
         </section>
