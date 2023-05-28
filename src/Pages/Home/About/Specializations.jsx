@@ -10,11 +10,11 @@ const Specializations = () => {
                 <p className='font-bold text-xl mb-3'> My <span className='text-gradient'>Specializations</span></p>
             </div>
             <div className='my-10'>
-                <div className='flex flex-col gap-10 lg:flex-row justify-center items-center'>
+                <div className='flex flex-col gap-10 lg:flex-row justify-center items-center px-5 overflow-hidden'>
                     <div className='border hover:border-secondary border-accent 
                     hover:transition-all hover:ease-linear
                     hover:duration-300
-                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2'>
+                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2' data-aos="fade-right">
                         <div>
                             <img src={img1} alt="Web Development" className='mx-auto' />
                         </div>
@@ -25,7 +25,7 @@ const Specializations = () => {
                     <div className='border hover:border-secondary border-accent 
                     hover:transition-all hover:ease-linear
                     hover:duration-300
-                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2'>
+                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2' data-aos="fade-up">
                         <div>
                             <img src={img2} alt="Web Development" className='mx-auto' />
                         </div>
@@ -36,7 +36,7 @@ const Specializations = () => {
                     <div className='border hover:border-secondary border-accent 
                     hover:transition-all hover:ease-linear
                     hover:duration-300
-                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2'>
+                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2' data-aos="fade-left">
                         <div>
                             <img src={img3} alt="Web Development" className='mx-auto' />
                         </div>

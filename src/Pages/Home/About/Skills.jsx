@@ -13,11 +13,11 @@ import skill10 from "../../../assets/icons/tailwind-css-icon.png";
 const Skills = () => {
     return (
         <section className='my-14 flex items-center justify-center'>
-            <div>
+            <div className='overflow-hidden'>
                 <div className='text-center'>
                     <p className='font-bold text-xl mb-3'> My <span className='text-gradient'>Advantages</span></p>
                 </div>
-                <div className='my-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4'>
+                <div className='my-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4' data-aos="zoom-in-up">
                     <div className='relative py-10 px-10 border-8 rounded-full text-center border-primary border-opacity-100 hover:border-opacity-30 transition-all duration-300'>
 
                         <img src={skill5} alt="HTML" className='mx-auto w-10 h-10' />

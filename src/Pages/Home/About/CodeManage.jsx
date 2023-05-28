@@ -10,8 +10,8 @@ const CodeManage = () => {
                     <p className='font-bold text-xl mb-3'> Coding <span className='text-gradient'>Structure</span></p>
                     <h1 className="text-2xl lg:text-3xl font-bold">How do I organize of my coding structure</h1>
                 </div>
-                <div className='flex items-center justify-center px-2 flex-col lg:flex-row gap-10 my-10'>
-                    <div className='flex flex-col space-y-6'>
+                <div className='flex items-center justify-center px-2 flex-col lg:flex-row gap-10 my-10 overflow-hidden'>
+                    <div className='flex flex-col space-y-6' data-aos="fade-right">
                         <p className='inline-flex items-center'><FaAngleDoubleRight className='text-primary h-6 w-6 mr-2' /><span className='font-semibold text-lg'>Simple and smart React code structure.</span></p>
 
                         <p className='inline-flex items-center'><FaAngleDoubleRight className='text-primary h-6 w-6 mr-2' /><span className='font-semibold text-lg'>Meaningful comment in each section if necessary.</span></p>
@@ -21,7 +21,7 @@ const CodeManage = () => {
                         <p className='inline-flex items-center'><FaAngleDoubleRight className='text-primary h-6 w-6 mr-2' /><span className='font-semibold text-lg'>Works reintegrated in any part of the layout.</span></p>
 
                     </div>
-                    <div className='w-full lg:w-[40%]'>
+                    <div className='w-full lg:w-[40%]' data-aos="fade-left">
                         <Lottie animationData={hero} loop={true}></Lottie>
                     </div>
                 </div>

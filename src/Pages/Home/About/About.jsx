@@ -4,6 +4,7 @@ import Specializations from './specializations';
 import Skills from './Skills';
 import CodeManage from './CodeManage';
 
+
 const About = () => {
     return (
         <section className='my-16'>
@@ -16,8 +17,10 @@ const About = () => {
 
                     <div className="hero mt-10 px-5">
                         <div className="hero-content flex-col lg:flex-row-reverse gap-8">
+                            <div data-aos="fade-left">
                             <img src={heroImg} className="max-w-sm rounded-lg shadow-2xl h-96" alt='Saiful Image' />
-                            <div>
+                            </div>
+                            <div data-aos="fade-right">
                                 <h1 className="text-4xl font-bold">Hey! I'm <span className='text-gradient'>Saiful Islam</span></h1>
                                 <p className="py-6">As a developer, I'm an expert in a range of technologies including Firebase, MongoDB, React, JavaScript, Express, CSS, and HTML.
                                     These tools allow me to create responsive, dynamic websites and applications that not only look great but also work seamlessly on various devices and platforms.</p>
