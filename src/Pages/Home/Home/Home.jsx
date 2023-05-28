@@ -4,6 +4,7 @@ import About from '../About/About';
 import Projects from '../../Projects/Projects';
 import Marquee from "react-fast-marquee";
 import Contact from '../Contact/Contact';
+import Faq from '../Faq/Faq';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Banner />
             <About />
             <Projects />
+            <Faq />
             <Contact />
         </section>
     );

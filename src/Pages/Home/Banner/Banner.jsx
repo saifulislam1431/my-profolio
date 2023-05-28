@@ -17,7 +17,7 @@ const Banner = () => {
                         <h1 className="text-3xl lg:text-5xl font-bold">In my own <span className='text-gradient'>frontend</span> world.</h1>
                         <p className="py-4 font-medium">I'm ready for helping design and develop your business and personal website with your demand by HTML, CSS, Bootstrap, Tailwind, JavaScript, React, Node, Firebase, MongoDB.</p>
                         <div className='inline-flex gap-3 items-center'>
-                        <button className="myBtn inline-flex items-center"> <HiDocumentDownload className='h-6 w-6'/> Download Resume</button>
+                        <a href='Saifulislam_resume.pdf' download="Saifulislam_resume.pdf" className="myBtn inline-flex items-center"> <HiDocumentDownload className='h-6 w-6'/> Download Resume</a>
                         <Link to="/contact" className="myBtn inline-flex items-center"> Hire Me</Link>
                         </div>
                     </div>
