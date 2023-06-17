@@ -14,7 +14,7 @@
     "daisyui": "^2.51.6",
     "emailjs": "^4.0.1",
     "firebase": "^9.22.1",
-    "framer-motion": "^10.12.10",
+    "framer-motion": "^10.12.16",
     "localforage": "^1.10.0",
     "lottie-react": "^2.4.0",
     "match-sorter": "^6.3.1",

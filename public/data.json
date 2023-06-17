@@ -1,40 +1,64 @@
 [
+    
     {
         "id":1,
-        "title": "Mighty Marvelous",
-        "description" : "This is a simple full-stack Toy Marketplace website",
-        "liveLink": "https://mighty-marvelous.web.app/",
-        "img": "https://i.ibb.co/RcnfSjm/screencapture-mighty-marvelous-web-app-2023-05-20-21-34-20-2.png"
+        "title": "String",
+        "description" : "This is a simple MERN Stack online musical institution.",
+        "features" : ["Dark Mood" ,"Authentication System" , "MongoDB CRUD operations for individual users" , "Different dashboard route for Students, Instructors and Admin with full functionality"],
+        "liveLink": "https://string-verse.web.app/",
+        "clientSide" : "https://github.com/saifulislam1431/string-verse",
+        "serverSide" : "https://github.com/saifulislam1431/string-verse-server",
+        "img": "https://i.ibb.co/PhPkYbg/string.png"
     },
     {
         "id":2,
-        "title": "Cravings Canvas",
-        "liveLink": "https://cravings-canvas.web.app/",
-        "img": "https://i.ibb.co/kqYCJFJ/screencapture-cravings-canvas-web-app-2023-05-20-21-38-27-2.png"
+        "title": "Mighty Marvelous",
+        "description" : "This is a simple MERN-stack Toy Marketplace website",
+        "features" : ["Authentication System" , "MongoDB CRUD operations for individual users" , "Different dashboard route for seller"],
+        "clientSide" : "https://github.com/saifulislam1431/mighty-marvelous-client",
+        "serverSide" :"https://github.com/saifulislam1431/mighty-marvelous-server",
+        "liveLink": "https://mighty-marvelous.web.app/",
+        "img": "https://i.ibb.co/wcwCM8V/mighty.png"
     },
     {
         "id":3,
-        "title": "Car Doctor",
-        "liveLink": "https://cars-doctors-6dfb1.web.app/",
-        "img": "https://i.ibb.co/TLvzhXL/screencapture-cars-doctors-6dfb1-web-app-2023-05-20-21-39-32-2.png"
+        "title": "Cravings Canvas",
+        "liveLink": "https://cravings-canvas.web.app/",
+        "description" : "This is a simple MERN-stack recipe hunting website",
+        "features" : ["Authentication System" , "Individual Chefs recipe with full detail" , "User like and review system"],
+        "clientSide" : "https://github.com/saifulislam1431/cravings-canvas-client",
+        "serverSide" :"https://github.com/saifulislam1431/cravings-canvas-server",
+        "img": "https://i.ibb.co/YDrQ43Y/canvas.png"
     },
     {
         "id":4,
-        "title": "Hire Sphere",
-        "liveLink": "https://hire-sphere.web.app/",
-        "img": "https://i.ibb.co/ngYGPn9/hire-2.png"
+        "title": "Car Doctor",
+        "liveLink": "https://cars-doctors-6dfb1.web.app/",
+        "description" : "This is a simple MERN-stack car servicing website",
+        "features" : ["Authentication System" , "MongoDB CRUD operations for individual users" , "Different dashboard route for users" , "Users Can booked and a service according to his suitable time"],
+        "clientSide" : "https://github.com/saifulislam1431/cars-doctors-client",
+        "serverSide" :"https://github.com/saifulislam1431/cars-doctors-server",
+        "img": "https://i.ibb.co/LJhw837/car-doc.png"
     },
     {
         "id":5,
-        "title": "News Dragon",
-        "liveLink": "https://the-dragon-news-12b42.web.app/",
-        "img": "https://i.ibb.co/4NQ9DD2/screencapture-localhost-5174-2023-05-20-22-09-44-2.png"
+        "title": "Hire Sphere",
+        "clientSide" : "https://github.com/saifulislam1431/hire-sphere",
+        "serverSide" : "",
+        "description" : "This is a simple Front-end job hunting website",
+        "features" : ["Authentication System" , "User can apply jobs and get real time update" , "Different dashboard route for users"],
+        "liveLink": "https://hire-sphere.web.app/",
+        "img": "https://i.ibb.co/xMJMLSq/hire.png"
     },
     {
         "id":6,
-        "title": "The nextPage",
-        "liveLink": "https://the-next-page-af120.web.app/",
-        "img": "https://i.ibb.co/TcqBJgv/screencapture-the-next-page-af120-web-app-2023-05-21-23-33-42.png"
+        "title": "News Dragon",
+        "clientSide" : "https://github.com/saifulislam1431/the-dragon-news-client",
+        "serverSide" : "https://github.com/saifulislam1431/the-dragon-news-server",
+        "features" : ["Authentication System" , "User can get real time update" , "Filter news by categories"],
+        "description" : "This is a simple online news portal website",
+        "liveLink": "https://the-dragon-news-12b42.web.app/",
+        "img": "https://i.ibb.co/nbb3SSN/new-dragon.png"
     }
 ]
 

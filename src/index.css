@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Josefin+Sans:wght@700&display=swap');
 
 *{
   font-family: 'Inter', sans-serif;
+}
+.pTitle{
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 @tailwind base;
@@ -23,5 +26,15 @@
 .myBtn{
   @apply  bg-gradient-to-r from-primary to-secondary text-white px-4 py-2 rounded-lg
   hover:from-[#7d80c7] hover:to-[#B6B0F2]
+}
+
+.myBtnSec{
+  @apply border border-[#7d80c7] font-semibold rounded-md text-[#7d80c7]
+  hover:bg-[#7d80c7] hover:text-white
+}
+
+.myBtnThd{
+  @apply border border-[#B6B0F2] font-semibold rounded-md text-[#B6B0F2]
+  hover:bg-[#B6B0F2] hover:text-white
 }
 
