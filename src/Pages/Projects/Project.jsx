@@ -10,8 +10,8 @@ const Project = ({project}) => {
         <section className='my-10'>
             <div  className='flex flex-col lg:flex-row gap-20'>
                 <motion.div
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 2 }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 1 }}
                 className='h-80 customScroll scroll-bar style-7'>
                     <img src={img} alt="Image" className='w-96 lg:w-[500px] rounded-lg'/>
                 </motion.div>

@@ -18,7 +18,7 @@ const Projects = () => {
                     <h1 className="text-2xl lg:text-3xl font-bold">A Collection of Projects Highlighting My Talents and Expertise</h1>
                 </div>
             </div>
-            <div className='my-10 flex items-center justify-center'>
+            <div className='my-10 flex items-center justify-center px-5'>
                 <div className='grid grid-cols-1 gap-10'>
                     {
                         projects.slice(0, show ? 6 : 3).map(project => <Project

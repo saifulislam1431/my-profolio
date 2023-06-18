@@ -20,7 +20,7 @@
 }
 
 .default{
-  @apply text-neutral font-medium bg-transparent
+  @apply text-info font-medium bg-transparent
 }
 
 .myBtn{
