@@ -36,7 +36,7 @@ const Banner = () => {
                                 {texts[index % texts.length]}
                             </TextTransition></span>
                         </div>
-                        <p className="py-4 font-medium">I'm ready for helping design and develop your business and personal website with your demand by HTML, CSS, Bootstrap, Tailwind, JavaScript, React, Node, Firebase, MongoDB.</p>
+                        <p className="py-4 font-medium">I'm ready for helping design and develop your business and personal website with your demand by HTML, CSS, Bootstrap, Tailwind, JavaScript, React, Node, Express.Js, Firebase, MongoDB.</p>
                         <div className='inline-flex gap-3 items-center'>
                             <a href='Saifulislam_resume.pdf' download="Saifulislam_resume.pdf" className="myBtn inline-flex items-center"> <HiDocumentDownload className='h-6 w-6' /> Download Resume</a>
                             <a href="mailto:saifulislam140301@gmail.com" className="myBtn inline-flex items-center cursor-pointer gap-1"> Hire Me <HiOutlineEnvelope className='h-6 w-5'/></a>

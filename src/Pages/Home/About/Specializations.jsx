@@ -14,7 +14,7 @@ const Specializations = () => {
                     <div className='border hover:border-secondary border-accent 
                     hover:transition-all hover:ease-linear
                     hover:duration-300
-                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2' data-aos="fade-right">
+                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2' data-aos="fade-right" data-aos-duration="1300">
                         <div>
                             <img src={img1} alt="Web Development" className='mx-auto' />
                         </div>
@@ -25,7 +25,7 @@ const Specializations = () => {
                     <div className='border hover:border-secondary border-accent 
                     hover:transition-all hover:ease-linear
                     hover:duration-300
-                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2' data-aos="fade-up">
+                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2' data-aos="fade-up" data-aos-duration="1500">
                         <div>
                             <img src={img2} alt="Web Development" className='mx-auto' />
                         </div>
@@ -36,7 +36,7 @@ const Specializations = () => {
                     <div className='border hover:border-secondary border-accent 
                     hover:transition-all hover:ease-linear
                     hover:duration-300
-                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2' data-aos="fade-left">
+                    hover:bg-secondary hover:text-white rounded-lg p-4 text-center w-3/4 lg:w-1/2' data-aos="fade-left" data-aos-duration="1300">
                         <div>
                             <img src={img3} alt="Web Development" className='mx-auto' />
                         </div>
