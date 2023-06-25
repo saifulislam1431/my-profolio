@@ -12,11 +12,11 @@ const Footer = () => {
         <footer className="footer footer-center p-10 bg-primary bg-opacity-20 text-neutral mt-10">
             <div>
                 <Link to="/">
-                    <button className="text-xl inline-flex items-end gap-1">
-                        <img src={logo} alt="Logo" className='w-8 h-12' />
-                        <span className='text-2xl text-gradient font-extrabold'>
-                            aiful Islam
-                        </span>
+                    <button className="text-xl inline-flex items-end gap-2">
+                    <img src={logo} alt="Logo" className='w-6 h-7' />
+                                <span className='text-lg text-gradient font-extrabold heroTitle'>
+                                    _saiful Islam
+                                </span>
                     </button>
                 </Link>
                 <p className="font-bold">

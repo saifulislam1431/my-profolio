@@ -72,10 +72,10 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <Link to="/" className='hidden lg:flex'>
-                            <button className="text-xl inline-flex items-end gap-1">
-                                <img src={logo} alt="Logo" className='w-6 h-6' />
-                                <span className='text-lg text-gradient font-extrabold uppercase'>
-                                    aiful Islam
+                            <button className="text-xl inline-flex items-end gap-2">
+                                <img src={logo} alt="Logo" className='w-6 h-7' />
+                                <span className='text-lg text-gradient font-extrabold heroTitle'>
+                                    _saiful Islam
                                 </span>
                             </button>
                         </Link>
@@ -89,10 +89,10 @@ const Navbar = () => {
                     <div className="navbar-center flex lg:hidden">
 
                         <Link to="/" className='flex lg:hidden'>
-                            <button className="text-xl inline-flex items-end gap-1">
-                                <img src={logo} alt="" className='w-6 h-6' />
-                                <span className='text-xl text-gradient font-extrabold uppercase'>
-                                    aiful Islam
+                            <button className="text-xl inline-flex items-end gap-2">
+                            <img src={logo} alt="Logo" className='w-6 h-7' />
+                                <span className='text-lg text-gradient font-extrabold heroTitle'>
+                                    _saiful Islam
                                 </span>
                             </button>
                         </Link>
