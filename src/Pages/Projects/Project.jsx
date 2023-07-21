@@ -15,7 +15,7 @@ const Project = ({ project }) => {
                     className='h-80 customScroll scroll-bar style-7'>
                     <img src={img} alt="Image" className='w-96 lg:w-[500px] rounded-lg' />
                 </motion.div>
-                <div data-aos="fade-up-left" data-aos-duration="2000">
+                <div data-aos="fade-up-left" data-aos-duration="2000" className='w-full lg:w-[642px]'>
                     <h1 className='pTitle text-2xl text-primary'>{title}</h1>
                     <p className='my-2 font-semibold text-gray-400 capitalize'>{description}</p>
                     <ul className='my-4 font-semibold'>
