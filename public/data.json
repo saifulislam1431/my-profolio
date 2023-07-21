@@ -1,5 +1,14 @@
 [
-    
+    {
+        "id":7,
+        "title": "House Hunter",
+        "description" : "House Hunter is a delightful platform that simplifies the house rental process. It serves as a connecting bridge between house owners, who wish to rent out their properties, and house renters, who are seeking their dream homes.",
+        "features" : ["Dark Mood" ,"Custom authentication system with MongoDB and JWT" , "MongoDB CRUD operations for individual users" , "Different dashboard route for house renter and house owner with full functionality"],
+        "liveLink": "https://house-hunter-3f445.web.app/",
+        "clientSide" : "https://github.com/saifulislam1431/house-hunter",
+        "serverSide" : "https://github.com/saifulislam1431/house-hunter-server",
+        "img": "https://i.ibb.co/T4V0vfn/house-hunter-1.png"
+    },
     {
         "id":1,
         "title": "String",
