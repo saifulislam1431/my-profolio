@@ -1,4 +1,5 @@
 import React from 'react';
+import { delay, motion } from "framer-motion";
 import "./Navbar.css";
 import logo from "../../../assets/logo/logo.png"
 import { Link, NavLink } from 'react-router-dom';
@@ -9,6 +10,50 @@ import { useEffect } from 'react';
 
 const Navbar = () => {
 
+    const animateNavbar = {
+        hidden: {
+            y: -100
+        },
+        visible: {
+            y: -0,
+            duration: 2,
+            transition: {
+                type: "spring",
+                stiffness: 200,
+            }
+        }
+    }
+
+    const animateLogoContainer = {
+        hidden: {
+            x: -250
+        },
+        visible: {
+            x: -0,
+            duration: 2,
+            transition: {
+                delay: 1,
+                type: "spring",
+                stiffness: 150,
+            }
+        }
+    }
+
+    const animateLinksContainer = {
+        hidden: {
+            x: 500
+        },
+        visible: {
+            x: -0,
+            duration: 2,
+            transition: {
+                delay: 1,
+                type: "spring",
+                stiffness: 150,
+            }
+        }
+    }
+
     const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "mytheme");
 
     const handleDark = (e) => {
@@ -18,6 +63,8 @@ const Navbar = () => {
             setTheme("mytheme")
         }
     }
+
+
 
     useEffect(() => {
         localStorage.setItem("theme", theme);
@@ -36,12 +83,12 @@ const Navbar = () => {
         <li>
             <NavLink to="/project" className={({ isActive }) => (isActive ? "active" : "default")}>Project</NavLink>
         </li>
+        {/* <li>
+            <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "default")}>Portfolio</NavLink>
+        </li> */}
         <li>
-            <NavLink to="/portfolio" className={({ isActive }) => (isActive ? "active" : "default")}>Portfolio</NavLink>
-        </li>
-        <li>
-            <Link to="/contact" className='bg-transparent'><button className="myBtn inline-flex items-center gap-1"><HiCode className='w-5 h-5' />
-                Want to talk?</button></Link>
+            <a href="mailto:saifulislam140301@gmail.com" className='bg-transparent'><button className="myBtn inline-flex items-center gap-1"><HiCode className='w-5 h-5' />
+                Want to talk?</button></a>
         </li>
 
         <label className="swap swap-rotate">
@@ -58,63 +105,82 @@ const Navbar = () => {
         </label>
     </>
     return (
-        <section className='sticky z-50 top-0'>
-            <nav className='sticky top-0 z-50'>
+        <motion.section className='sticky z-50 top-0 overflow-hidden'>
+            <motion.nav className='sticky top-0 z-50'
+                variants={animateNavbar}
+                initial="hidden"
+                animate="visible"
+            >
                 <div className="navbar navBg sticky top-0 py-2">
                     <div className="lg:navbar-start">
                         <div className="dropdown">
-                            {/* <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-9 w-9" fill="bg" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label> */}
-
-                            <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                            {/* <motion.ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+                                variants={animateLinksContainer}
+                                initial="hidden"
+                                animate="visible"
+                            >
                                 {navItem}
-                            </ul>
+                            </motion.ul> */}
                         </div>
-                        <Link to="/" className='hidden lg:flex'>
+                        <motion.Link to="/" className='hidden lg:flex'
+                            variants={animateLogoContainer}
+                            initial="hidden"
+                            animate="visible"
+                        >
                             <button className="text-xl inline-flex items-end gap-2">
                                 <img src={logo} alt="Logo" className='w-6 h-7' />
                                 <span className='text-lg text-gradient font-extrabold heroTitle'>
                                     _saiful Islam
                                 </span>
                             </button>
-                        </Link>
+                        </motion.Link>
                     </div>
-                    <div className="lg:navbar-end hidden lg:flex">
+
+                    <motion.div className="lg:navbar-end hidden lg:flex"
+                        variants={animateLinksContainer}
+                        initial="hidden"
+                        animate="visible"
+                    >
 
                         <ul className="menu menu-horizontal px-1">
                             {navItem}
                         </ul>
-                    </div>
+                    </motion.div>
                     <div className="navbar-center flex lg:hidden">
 
-                        <Link to="/" className='flex lg:hidden'>
+                        <motion.Link to="/" className='flex lg:hidden'
+                            variants={animateLogoContainer}
+                            initial="hidden"
+                            animate="visible"
+                        >
                             <button className="text-xl inline-flex items-end gap-2">
-                            <img src={logo} alt="Logo" className='w-6 h-7' />
+                                <img src={logo} alt="Logo" className='w-6 h-7' />
                                 <span className='text-lg text-gradient font-extrabold heroTitle'>
                                     _saiful Islam
                                 </span>
                             </button>
-                        </Link>
+                        </motion.Link>
                     </div>
 
                     <div className="navbar-end flex lg:hidden">
-                    <label className="swap swap-rotate">
+                        <label className="swap swap-rotate">
 
-{/* this hidden checkbox controls the state */}
-<input type="checkbox" onChange={handleDark} checked={theme === "mytheme" ? false : true} />
+                            {/* this hidden checkbox controls the state */}
+                            <input type="checkbox" onChange={handleDark} checked={theme === "mytheme" ? false : true} />
 
-{/* sun icon */}
-<HiSun className="swap-on text-yellow-500 w-9 h-9 controlSpin" />
+                            {/* sun icon */}
+                            <HiSun className="swap-on text-yellow-500 w-9 h-9 controlSpin" />
 
-{/* moon icon */}
-<HiMoon className='swap-off w-9 h-9 text-gray-600 animate-bounce' />
+                            {/* moon icon */}
+                            <HiMoon className='swap-off w-9 h-9 text-gray-600 animate-bounce' />
 
-</label>
+                        </label>
                     </div>
                 </div>
 
-            </nav>
+            </motion.nav>
+
+
             <div className="btm-nav z-50 rounded-full bg-base bg-opacity-90 lg:hidden mb-3 shadow-2xl border-b-4 border-purple-600">
                 <NavLink to="/" className={({ isActive }) => (isActive ? "text-purple-700" : "default")}>
                     <HiOutlineHome className='h-7 w-7' />
@@ -131,7 +197,7 @@ const Navbar = () => {
 
 
             </div>
-        </section>
+        </motion.section>
     );
 };
 

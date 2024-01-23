@@ -5,6 +5,7 @@ import Footer from '../Pages/Shared/Footer/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo from "../assets/logo/logo.png"
+import whatsapp from "../assets/icons/whatsapp.png"
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { PropagateLoader } from 'react-spinners';
@@ -18,7 +19,7 @@ const Main = () => {
         setLoading(true);
         setTimeout(() => {
             setLoading(false);
-        }, 2000);
+        }, 1000);
     }, []);
     return (
         <section>
@@ -38,6 +39,13 @@ const Main = () => {
                     </motion.div>
                 </div> : <>
                     <Navbar />
+
+                    <div className="fixed bottom-0 right-0 m-8 z-50">
+                        <a href="https://api.whatsapp.com/send?phone=8801790272971" target='_blank'>
+                            <img src={whatsapp} alt="whatsapp" className='shadow-2xl shadow-secondary rounded-xl w-11 lg:w-[52px]' />
+
+                        </a>
+                    </div>
                     <Outlet />
                     <Footer />
                 </>

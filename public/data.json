@@ -1,75 +1,118 @@
 [
     {
-        "id":7,
+        "id": 8,
+        "title": "Lawyer Finder",
+        "description": "Lawyer Finder is a web platform designed to help users easily find lawyers for different legal needs. The platform provides a user-friendly interface to search for lawyers based on various criteria, such as legal practice areas, expertise, and user reviews.",
+        "features": [
+            "User can post for legal solution, Feedback for attorney, Connect with attorney, Apply for intern post.",
+            "Attorney can update profile and fee structure, Write blogs and hire intern. ",
+            "Admin can manage blogs, users, attorney and give support to users for fulfil case solution. "
+        ],
+        "liveLink": "https://lawer-finder-pro.web.app/",
+        "clientSide": "https://github.com/saifulislam1431/lawyer-finder",
+        "serverSide": "https://github.com/saifulislam1431/lawyer-finder-pro-server",
+        "img": "https://i.ibb.co/VNqG1pM/lawyer-finder.png"
+    },
+    {
+        "id": 7,
         "title": "House Hunter",
-        "description" : "House Hunter is a delightful platform that simplifies the house rental process. It serves as a connecting bridge between house owners, who wish to rent out their properties, and house renters, who are seeking their dream homes.",
-        "features" : ["Dark Mood" ,"Custom authentication system with MongoDB and JWT" , "MongoDB CRUD operations for individual users" , "Different dashboard route for house renter and house owner with full functionality"],
+        "description": "House Hunter is a delightful platform that simplifies the house rental process. It serves as a connecting bridge between house owners, who wish to rent out their properties, and house renters, who are seeking their dream homes.",
+        "features": [
+            "Dark Mood",
+            "Custom authentication system with MongoDB and JWT",
+            "MongoDB CRUD operations for individual users",
+            "Different dashboard route for house renter and house owner with full functionality"
+        ],
         "liveLink": "https://house-hunter-3f445.web.app/",
-        "clientSide" : "https://github.com/saifulislam1431/house-hunter",
-        "serverSide" : "https://github.com/saifulislam1431/house-hunter-server",
+        "clientSide": "https://github.com/saifulislam1431/house-hunter",
+        "serverSide": "https://github.com/saifulislam1431/house-hunter-server",
         "img": "https://i.ibb.co/T4V0vfn/house-hunter-1.png"
     },
     {
-        "id":1,
+        "id": 1,
         "title": "String",
-        "description" : "This is a simple MERN Stack online musical institution.",
-        "features" : ["Dark Mood" ,"Authentication System" , "MongoDB CRUD operations for individual users" , "Different dashboard route for Students, Instructors and Admin with full functionality"],
+        "description": "A Musical institution web platform designed to connect newbie musical soul and experts. Where user can simply find all musical courses and purchase it from instructors. The instructors can upload courses for users.",
+        "features": [
+            "Dark Mood",
+            "Authentication System",
+            "MongoDB CRUD operations for individual users",
+            "Different dashboard route for Students, Instructors and Admin with full functionality",
+            "Stripe payment method integration"
+        ],
         "liveLink": "https://string-verse.web.app/",
-        "clientSide" : "https://github.com/saifulislam1431/string-verse",
-        "serverSide" : "https://github.com/saifulislam1431/string-verse-server",
+        "clientSide": "https://github.com/saifulislam1431/string-verse",
+        "serverSide": "https://github.com/saifulislam1431/string-verse-server",
         "img": "https://i.ibb.co/PhPkYbg/string.png"
     },
     {
-        "id":2,
+        "id": 2,
         "title": "Mighty Marvelous",
-        "description" : "This is a simple MERN-stack Toy Marketplace website",
-        "features" : ["Authentication System" , "MongoDB CRUD operations for individual users" , "Different dashboard route for seller"],
-        "clientSide" : "https://github.com/saifulislam1431/mighty-marvelous-client",
-        "serverSide" :"https://github.com/saifulislam1431/mighty-marvelous-server",
+        "description": "This is a simple MERN-stack Toy Marketplace website",
+        "features": [
+            "Authentication System",
+            "MongoDB CRUD operations for individual users",
+            "Different dashboard route for seller"
+        ],
+        "clientSide": "https://github.com/saifulislam1431/mighty-marvelous-client",
+        "serverSide": "https://github.com/saifulislam1431/mighty-marvelous-server",
         "liveLink": "https://mighty-marvelous.web.app/",
         "img": "https://i.ibb.co/wcwCM8V/mighty.png"
     },
     {
-        "id":3,
+        "id": 3,
         "title": "Cravings Canvas",
         "liveLink": "https://cravings-canvas.web.app/",
-        "description" : "This is a simple MERN-stack recipe hunting website",
-        "features" : ["Authentication System" , "Individual Chefs recipe with full detail" , "User like and review system"],
-        "clientSide" : "https://github.com/saifulislam1431/cravings-canvas-client",
-        "serverSide" :"https://github.com/saifulislam1431/cravings-canvas-server",
+        "description": "This is a simple MERN-stack recipe hunting website",
+        "features": [
+            "Authentication System",
+            "Individual Chefs recipe with full detail",
+            "User like and review system"
+        ],
+        "clientSide": "https://github.com/saifulislam1431/cravings-canvas-client",
+        "serverSide": "https://github.com/saifulislam1431/cravings-canvas-server",
         "img": "https://i.ibb.co/YDrQ43Y/canvas.png"
     },
     {
-        "id":4,
+        "id": 4,
         "title": "Car Doctor",
         "liveLink": "https://cars-doctors-6dfb1.web.app/",
-        "description" : "This is a simple MERN-stack car servicing website",
-        "features" : ["Authentication System" , "MongoDB CRUD operations for individual users" , "Different dashboard route for users" , "Users Can booked and a service according to his suitable time"],
-        "clientSide" : "https://github.com/saifulislam1431/cars-doctors-client",
-        "serverSide" :"https://github.com/saifulislam1431/cars-doctors-server",
+        "description": "This is a simple MERN-stack car servicing website",
+        "features": [
+            "Authentication System",
+            "MongoDB CRUD operations for individual users",
+            "Different dashboard route for users",
+            "Users Can booked and a service according to his suitable time"
+        ],
+        "clientSide": "https://github.com/saifulislam1431/cars-doctors-client",
+        "serverSide": "https://github.com/saifulislam1431/cars-doctors-server",
         "img": "https://i.ibb.co/LJhw837/car-doc.png"
     },
     {
-        "id":5,
+        "id": 5,
         "title": "Hire Sphere",
-        "clientSide" : "https://github.com/saifulislam1431/hire-sphere",
-        "serverSide" : "",
-        "description" : "This is a simple Front-end job hunting website",
-        "features" : ["Authentication System" , "User can apply jobs and get real time update" , "Different dashboard route for users"],
+        "clientSide": "https://github.com/saifulislam1431/hire-sphere",
+        "serverSide": "",
+        "description": "This is a simple Front-end job hunting website",
+        "features": [
+            "Authentication System",
+            "User can apply jobs and get real time update",
+            "Different dashboard route for users"
+        ],
         "liveLink": "https://hire-sphere.web.app/",
         "img": "https://i.ibb.co/xMJMLSq/hire.png"
     },
     {
-        "id":6,
+        "id": 6,
         "title": "News Dragon",
-        "clientSide" : "https://github.com/saifulislam1431/the-dragon-news-client",
-        "serverSide" : "https://github.com/saifulislam1431/the-dragon-news-server",
-        "features" : ["Authentication System" , "User can get real time update" , "Filter news by categories"],
-        "description" : "This is a simple online news portal website",
+        "clientSide": "https://github.com/saifulislam1431/the-dragon-news-client",
+        "serverSide": "https://github.com/saifulislam1431/the-dragon-news-server",
+        "features": [
+            "Authentication System",
+            "User can get real time update",
+            "Filter news by categories"
+        ],
+        "description": "This is a simple online news portal website",
         "liveLink": "https://the-dragon-news-12b42.web.app/",
         "img": "https://i.ibb.co/nbb3SSN/new-dragon.png"
     }
 ]
-
-
-
